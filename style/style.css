@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 body {
@@ -46,7 +48,6 @@ header .container {
     color: white;
     font-size: 10px;
     cursor: pointer;
-    font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -85,7 +86,6 @@ header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 2px solid blue;
     justify-content: space-between;
 }
 
@@ -94,27 +94,51 @@ header .container {
 
 .showMore h1 {
     font-size: 29px;
-    text-align: center;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-left: 17px;
 }
 
 
 .showMore p {
-    text-align: justify;
+    text-align: center;
+    width: 366px;
+    padding-bottom: 20px;
+}
+
+.showMore a {
+    text-align: center;
 }
 
 .blackLetters {
     color: #030303;
     letter-spacing: 4px;
     font-size: 30px;
+    font-weight: 100;
 }
 
 .firstSection .greenLetters {
     letter-spacing: 3px;
     font-size: 30px;
+    font-weight: 900;
 }
 
+.firstSection button {
+    height: 52px;
+    width: 264px;
+    background: #24ba9f;
+    color: #feffff;
+    font-size: 17px;
+    border-radius: 10%;
+    font-weight: 100;
+}
 
-
+.showMore {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
