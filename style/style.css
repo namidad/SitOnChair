@@ -158,6 +158,7 @@ header .container {
 .secondSection .container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding-bottom: 70px;
     padding-top: 27px;
 }
@@ -168,35 +169,111 @@ header .container {
 }
 
 .secondSection .container div {
-    width: 33.3333%;
+    width: 329px;
 }
 
 
 .findAllInputs {
     border: 1px solid #d9d9d9;
     height: 252px;
+    padding: 22px;
+}
+
+.transparentBackground {
+    position: relative;
+    width: 329px;
+    height: 225px;
 }
 
 
+.transparentBackground div {
+    position: absolute;
+    bottom: 15px;
+    height: 64px;
+    background:rgba(255,255,255, 0.4);
+    padding-left: 20px;
+    padding-top: 17px;
+}
+
+.relGre {
+    position: relative;
+}
 
 
+.transparentBackground div:before{
+    content: "";
+    position: absolute;
+    left: 14px;
+    bottom: 22px;
+    width: 142px;
+    border-bottom: 7px solid #2bc7af;
+}
+
+.findAllInputs div:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 142px;
+    border-bottom: 7px solid #2bc7af;
+}
+
+.findAllInputs h2{
+    font-size: 14px;
+    padding-bottom: 30px;
+    font-weight: 900;
+
+}
+
+.findAllInputs p{
+    text-align: justify;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #6e6e6e;
+}
+
+.findAllInputs p:first-of-type{
+    padding-bottom: 30px;
+}
 
 
+.thirdSection {
+    background: #f1f1f1;
+    height: 725px;
+}
+
+.cardColection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 70px;
+
+}
+
+.thirdSection .container p{
+    padding-top: 40px;
+}
+.thirdSection .container {
+    position: relative;
+}
 
 
+.greenCennik:before{
+    content: "";
+    position: absolute;
+    top: 60px;
+    width: 300px;
+    border-bottom: 7px solid #2bc7af;
+}
 
+.card {
+    width: 330px;
+    height: 500px;
+    background: #f9f9f9;
+    border: 2px solid #d4d4d4;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.plan {
+    height: 240px;
+}
 
