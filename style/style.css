@@ -140,15 +140,42 @@ header .container {
     align-items: center;
 }
 
+.blackChair {
+    margin-top: 50px;
+    position: relative;
+}
+
+.leftArrow, .rigthArrow{
+    font-size: 60px;
+    color: #19c1a0;
+}
+
+.secondSection {
+    height: 350px;
+    background: #ffffff;
+}
+
+.secondSection .container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 70px;
+    padding-top: 27px;
+}
 
 
+.secondSection .container div:not(:last-of-type) {
+    padding-right: 30px;
+}
+
+.secondSection .container div {
+    width: 33.3333%;
+}
 
 
-
-
-
-
-
+.findAllInputs {
+    border: 1px solid #d9d9d9;
+    height: 252px;
+}
 
 
 
